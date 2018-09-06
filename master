@@ -1,0 +1,15 @@
+# programme7
+reverse of a number
+#include<stdio.h>
+void main()
+{
+int value,r_digit;
+printf("enter a no.to be reversed\n");
+scanf("%d",&value);
+do
+{
+r_digit=value%10;
+printf("%d",r_digit);
+value=value/10;
+}
+}
